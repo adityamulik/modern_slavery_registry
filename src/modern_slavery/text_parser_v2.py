@@ -1,3 +1,7 @@
+"""
+using the file to clean up the text. 
+"""
+
 import re
 
 # from copy import deepcopy

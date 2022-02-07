@@ -52,7 +52,9 @@ def load_pickle(filename: str, path: str = None) -> Any:
 
 def nltk_resource_downloader(resource: str):
     """NLTK resource downloader.
-
+    
+    Note: if resource is not available, it will download it
+    
     Args:
         resource: nltk resource name
     """
